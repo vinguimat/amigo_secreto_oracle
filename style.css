@@ -132,6 +132,13 @@ ul {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 1%;
+}
+
+ul:empty{
+    display: none;
 }
 
 .result-list {
@@ -160,3 +167,8 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.container-button {
+    padding-top: 1%;
+}
+
